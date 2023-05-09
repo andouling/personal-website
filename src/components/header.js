@@ -121,7 +121,7 @@ const Header = (props) => {
   return (
     <HeaderParent isHomepage={isHomepage}>
       <HeaderWrapper isHomepage={isHomepage}>
-        <HeaderTitle isHomepage={isHomepage}>jeffreyxiao</HeaderTitle>
+        <HeaderTitle isHomepage={isHomepage}>andouling</HeaderTitle>
         <HeaderBio isHomepage={isHomepage}>
           Hi! I&#39;m a student at the University of Waterloo studying software engineering. I have
           an interest in large scale distributed algorithms and infrastructure for data analytics. I

@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Jeffrey Xiao",
-    author: "Jeffrey Xiao",
-    siteUrl: "https://jeffreyxiao.me/",
+    title: "Andrey Chernov",
+    author: "Andrey Chernov",
+    siteUrl: "https://github.com/cerand",
   },
 
   plugins: [
     "gatsby-plugin-layout",
     "gatsby-plugin-sass",
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-netlify",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -56,12 +57,6 @@ module.exports = {
           },
         ],
       },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "UA-70604313-2",
-      },
-    },
+    }
   ],
 };

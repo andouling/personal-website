@@ -206,31 +206,31 @@ const getEducationSectionComponent = (entry, key) => (
 const LinksSection = () => (
   <div>
     <div>
-      <StyledLink to="mailto:jeffrey.xiao@uwaterloo.ca">
+      <StyledLink to="mailto:fantasy.reactor@gmail.com">
         <LinkIcon icon="envelope" />
-        jeffrey.xiao@waterloo.ca
+        fantasy.reactor@gmail.com
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://www.github.com/jeffrey-xiao">
+      <StyledLink to="https://www.github.com/cerand">
         <LinkIcon icon={["fab", "github"]} />
-        github.com/jeffrey-xiao
+        github.com/cerand
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://www.linkedin.com/in/jeffreyxiao">
+      <StyledLink to="https://www.linkedin.com/in/andouling">
         <LinkIcon icon={["fab", "linkedin"]} />
-        linkedin.com/in/jeffreyxiao
+        linkedin.com/in/andouling
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://devpost.com/jeffreyxiao">
+      <StyledLink to="https://devpost.com/cerand">
         <LinkIcon icon="link" />
-        devpost.com/jeffreyxiao
+        devpost.com/cerand
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://s3.amazonaws.com/jeffreyxiao-resume/resume.pdf">
+      <StyledLink to="link_to_PDF">
         <LinkIcon icon="file-pdf" />
         PDF Version of Resume
       </StyledLink>
@@ -352,7 +352,7 @@ class ResumePage extends React.Component {
         }}
       >
         <Helmet>
-          <title>Resume - Jeffrey Xiao</title>
+          <title>Resume - Chernov Andrey</title>
         </Helmet>
         <ResumeLeftColumn>
           <SectionHeader>Experience</SectionHeader>

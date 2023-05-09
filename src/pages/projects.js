@@ -68,7 +68,7 @@ class ProjectsPage extends React.Component {
         }}
       >
         <Helmet>
-          <title>Projects - Jeffrey Xiao</title>
+          <title>Projects - Chernov Andrey</title>
         </Helmet>
         <ProjectCards>{projectCards}</ProjectCards>
       </ProjectsBody>

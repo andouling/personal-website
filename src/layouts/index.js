@@ -44,12 +44,13 @@ const LayoutWrapper = styled.div`
 const Layout = (props) => (
   <LayoutWrapper>
     <Helmet>
-      <title>Jeffrey Xiao</title>
+      <title>Chernov Andrey</title>
       <meta
         name="description"
         content={`
-          Jeffrey Xiao. I&#39;m a student at the University of Waterloo with an interest in
-          distributed systems and scalable infrastructure design.
+          Chernov Andrey. I&#39;m an Senior Android software engineer and technical manager @ Drom.
+          I'm interested in Android, iOS, JVM backend development as well as
+          solving challanging application performance problems.
         `}
       />
     </Helmet>

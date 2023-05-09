@@ -1,7 +1,7 @@
 [
   {
     "entity": "kademlia-dht-rs",
-    "subEntity": "<a href='https://github.com/jeffrey-xiao/kademlia-dht-rs'>GitHub Repo</a>",
+    "subEntity": "<a href='https://github.com/cerand'>GitHub Repo</a>",
     "category": "Personal Project",
     "tags": "Rust, Distributed Systems",
     "description": [

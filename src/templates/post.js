@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import ReactDisqusComments from "react-disqus-comments";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
@@ -201,19 +200,13 @@ class PostTemplate extends React.Component {
         }}
       >
         <Helmet>
-          <title>{`${currPost.frontmatter.title} | Jeffrey Xiao`}</title>
+          <title>{`${currPost.frontmatter.title} | Chernov Andrey`}</title>
         </Helmet>
         <PostTitle>{currPost.frontmatter.title}</PostTitle>
         <PostSubtitle>{formattedDate}</PostSubtitle>
         {tags}
         <div id="post-content" dangerouslySetInnerHTML={{ __html: currPost.html }} />
         <SideContents headings={currPost.headings} path={currPost.frontmatter.path} />
-        <ReactDisqusComments
-          shortname="jeffreyxiao"
-          identifier={currPost.frontmatter.title.toLowerCase().replace(/ /g, "-")}
-          title={currPost.frontmatter.title}
-          url={`https://jeffreyxiao.me/${currPost.frontmatter.path}`}
-        />
         {prevPost && (
           <PrevPostLink>
             <StyledLink to={prevPost.frontmatter.path}>Previous Post</StyledLink>

@@ -3,13 +3,13 @@ import { Helmet } from "react-helmet";
 
 const HomePage = () => (
   <Helmet>
-    <title>Jeffrey Xiao</title>
+    <title>Chernov Andrey</title>
     <meta
       name="description"
       content={`
-        Hi! I'm a student at the University of Waterloo studying software engineering.
-        I have an interest in modern and reactive web development as well as developing
-        infrastructure to solve big problems.
+        Hi! I'm an Senior Android software engineer and technical manager @ Drom.
+        I'm interested in Android, iOS, JVM backend development as well as
+        solving challanging application performance problems.
       `}
     />
   </Helmet>

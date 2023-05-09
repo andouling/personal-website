@@ -1,0 +1,23 @@
+[
+  {
+    "entity": "kademlia-dht-rs",
+    "subEntity": "<a href='https://github.com/jeffrey-xiao/kademlia-dht-rs'>GitHub Repo</a>",
+    "category": "Personal Project",
+    "tags": "Rust, Distributed Systems",
+    "description": [
+      "A flexible implementation of Kademlia, a distributed hash table.",
+      "Used strict parallelism to efficiently send RPCs to probe nearby nodes."
+    ]
+  },
+  {
+    "entity": "inSight",
+    "subEntity": "<a href='https://news.greylock.com/greylock-hackfest-2017-ec944584ba7f'>Hackathon Article</a>",
+    "category": "Greylock Hackfest",
+    "tags": "Python, C++, Unity, Tensorflow",
+    "description": [
+      "An interactive AR headset that uses both machine learning and custom image analysis algorithms to display information about the user’s point of focus.",
+      "Applied gaze tracking to enable full control of headset via eye movement.",
+      "Used Bing and IoT technology to control home appliances and learn about surroundings in an intuitive way."
+    ]
+  }
+]

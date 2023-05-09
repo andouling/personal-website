@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Languages",
+    "elements": [
+      "Rust",
+      "C++",
+      "Java",
+      "Scala",
+      "Elixir",
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SQL",
+      "Bash"
+    ]
+  },
+  {
+    "title": "Technologies",
+    "elements": ["React", "Node", "Phoenix", "Git", "Linux", "AWS"]
+  }
+]

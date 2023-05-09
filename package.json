@@ -1,11 +1,11 @@
 {
-  "name": "cerand-home-page",
+  "name": "andouling-home-page",
   "private": false,
   "description": "TBD",
   "version": "0.1.0",
   "author": "Chernov Andrey <fantasy.reactor@gmail.com>",
   "bugs": {
-    "url": "https://github.com/cerand/personal-website/issues"
+    "url": "https://github.com/andouling/personal-website/issues"
   },
   "dependencies": {
     "@fontsource/merriweather": "^4.5.14",
@@ -46,14 +46,14 @@
   "devDependencies": {
     "prettier": "^2.8.8"
   },
-  "homepage": "https://github.com/cerand/personal-website#readme",
+  "homepage": "https://github.com/andouling/personal-website#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cerand/personal-website.git"
+    "url": "git+https://github.com/andouling/personal-website.git"
   },
   "scripts": {
     "build": "gatsby build",

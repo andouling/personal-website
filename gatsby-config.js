@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Andrey Chernov",
     author: "Andrey Chernov",
-    siteUrl: "https://github.com/cerand",
+    siteUrl: "https://github.com/andouling",
   },
 
   plugins: [

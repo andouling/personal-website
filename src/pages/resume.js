@@ -212,9 +212,9 @@ const LinksSection = () => (
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://www.github.com/cerand">
+      <StyledLink to="https://www.github.com/andouling">
         <LinkIcon icon={["fab", "github"]} />
-        github.com/cerand
+        github.com/andouling
       </StyledLink>
     </div>
     <div>
@@ -224,9 +224,9 @@ const LinksSection = () => (
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://devpost.com/cerand">
+      <StyledLink to="https://devpost.com/andouling">
         <LinkIcon icon="link" />
-        devpost.com/cerand
+        devpost.com/andouling
       </StyledLink>
     </div>
     <div>

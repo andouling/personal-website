@@ -40,7 +40,7 @@ FooterLink.propTypes = {
 
 const Footer = (props) => (
   <FooterDiv isHomepage={props.activePage === "/"}>
-    <FooterLink url="https://github.com/cerand" icon={["fab", "github"]} />
+    <FooterLink url="https://github.com/andouling" icon={["fab", "github"]} />
     <FooterLink url="https://www.linkedin.com/in/andouling" icon={["fab", "linkedin"]} />
     <FooterLink url="https://www.facebook.com/andouchan" icon={["fab", "facebook"]} />
     <FooterLink url="mailto:fantasy.reactor@gmail.com" icon="envelope" />

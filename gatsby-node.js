@@ -95,6 +95,16 @@ function generateContent(createPage, graphqlResults) {
   createTagPages(createPage, posts);
 }
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+   resolve: {
+      fallback: {
+        "crypto": false
+      },
+    },
+  })
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 

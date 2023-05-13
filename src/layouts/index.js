@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
 import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import LangChangeToggle from "../components/panel/lang-change-toggle"
 import {
   faAngleLeft,
   faAngleRight,
@@ -55,6 +56,7 @@ const Layout = (props) => (
       />
     </Helmet>
     <Header activePage={props.location.pathname} />
+    <LangChangeToggle/>
     {props.children}
     <Footer activePage={props.location.pathname} />
   </LayoutWrapper>

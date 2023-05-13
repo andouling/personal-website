@@ -11,6 +11,9 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-netlify",
     "gatsby-plugin-sharp",
+    "framer-motion",
+    "react",
+    "next",
     {
       resolve: "gatsby-source-filesystem",
       options: {

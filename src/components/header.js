@@ -67,7 +67,7 @@ class NavbarLink extends React.Component {
         onMouseEnter={this.toggleHover}
         onMouseLeave={this.toggleHover}
       >
-        {this.props.currentPage.toUpperCase()}
+        {this.props.pageName == null ? this.props.currentPage.toUpperCase() : this.props.pageName.toUpperCase() }
       </NavbarLinkStyled>
     );
   }
@@ -76,6 +76,7 @@ class NavbarLink extends React.Component {
 NavbarLink.propTypes = {
   activePage: PropTypes.string.isRequired,
   currentPage: PropTypes.string.isRequired,
+  pageName: PropTypes.string,
 };
 
 const HeaderParent = styled.div`
@@ -121,17 +122,17 @@ const Header = (props) => {
   return (
     <HeaderParent isHomepage={isHomepage}>
       <HeaderWrapper isHomepage={isHomepage}>
-        <HeaderTitle isHomepage={isHomepage}>andouling</HeaderTitle>
+        <HeaderTitle isHomepage={isHomepage}>Chernov Andrey</HeaderTitle>
         <HeaderBio isHomepage={isHomepage}>
-          Hi! I&#39;m a student at the University of Waterloo studying software engineering. I have
-          an interest in large scale distributed algorithms and infrastructure for data analytics. I
-          also enjoy working with low level systems.
+          Hi! I&#39;m a Senior Android Software Engineer and an Engineering Manager @ <a href="https://drom.ru/">Drom.ru</a>. <br/>
+          I&#39;m interested in Android, iOS, JVM backend and Embedded development
+          as well as solving tricky performance problems.
         </HeaderBio>
         <Navbar>
           <NavbarLink activePage={props.activePage} currentPage="home" />
           <NavbarLink activePage={props.activePage} currentPage="resume" />
-          <NavbarLink activePage={props.activePage} currentPage="projects" />
-          <NavbarLink activePage={props.activePage} currentPage="blog" />
+          <NavbarLink activePage={props.activePage} currentPage="comingsoon" pageName="project" />
+          <NavbarLink activePage={props.activePage} currentPage="comingsoon" pageName="blog"/>
         </Navbar>
       </HeaderWrapper>
     </HeaderParent>

@@ -70,7 +70,7 @@ class ProjectsPage extends React.Component {
         <Helmet>
           <title>Projects - Chernov Andrey</title>
         </Helmet>
-        <ProjectCards>{projectCards}</ProjectCards>
+        <div>Coming Soon...</div>
       </ProjectsBody>
     );
   }

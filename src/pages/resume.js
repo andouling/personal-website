@@ -114,6 +114,10 @@ const ResumeSectionWrapper = styled.div`
 const getPoints = (points) => points
   .map((point) => <li key={point} dangerouslySetInnerHTML={{ __html: point }} />);
 
+const SummarySection = (props) => {
+
+}
+
 const ResumeSection = (props) => {
   const descriptionPoints = getPoints(props.description);
 
@@ -238,7 +242,7 @@ const LinksSection = () => (
   </div>
 );
 
-const AwardDate = styled.p`
+const LanguageName = styled.p`
   display: inline-block;
   width: 40px;
   vertical-align: top;
@@ -248,7 +252,7 @@ const AwardDate = styled.p`
   color: ${colors.base1()};
 `;
 
-const AwardTitle = styled.p`
+const LanguageLevel = styled.p`
   display: inline-block;
   width: calc(100% - 60px);
   font-family: "Open Sans", sans-serif;
@@ -256,14 +260,13 @@ const AwardTitle = styled.p`
   color: ${colors.base1()};
 `;
 
-const AwardsSection = (props) => {
+const LanguagesSection = (props) => {
   const awards = [];
 
   props.awards.forEach((award) => {
     awards.push(
-      <div key={award.node.title}>
-        <AwardDate>{award.node.date}</AwardDate>
-        <AwardTitle>{award.node.title}</AwardTitle>
+      <div key={award.node.language}>
+        <LanguageLevel>{award.node.language} ({award.node.level})</LanguageLevel>
       </div>,
     );
   });
@@ -271,7 +274,7 @@ const AwardsSection = (props) => {
   return <div>{awards}</div>;
 };
 
-AwardsSection.propTypes = {
+LanguagesSection.propTypes = {
   awards: PropTypes.arrayOf(
     PropTypes.shape({
       node: PropTypes.shape({
@@ -357,18 +360,14 @@ class ResumePage extends React.Component {
         <ResumeLeftColumn>
           <SectionHeader>Experience</SectionHeader>
           <div>{experienceSections}</div>
-          <SectionHeader>Projects</SectionHeader>
-          <div>{projectSections}</div>
         </ResumeLeftColumn>
         <ResumeRightColumn>
           <SectionHeader>Links</SectionHeader>
           <LinksSection />
           <SectionHeader>Skills</SectionHeader>
           {skillSections}
-          <SectionHeader>Awards</SectionHeader>
-          <AwardsSection awards={this.props.data.allAwardEntriesJson.edges} />
-          <SectionHeader>Certifications</SectionHeader>
-          <Description>{certifications}</Description>
+          <SectionHeader>Languages</SectionHeader>
+          <LanguagesSection awards={this.props.data.allLanguagesEntriesJson.edges} />
           <SectionHeader>Education</SectionHeader>
           {educationSections}
           <SectionHeader>Interests</SectionHeader>
@@ -442,11 +441,11 @@ export const pageQuery = graphql`
       }
     }
 
-    allAwardEntriesJson {
+    allLanguagesEntriesJson {
       edges {
         node {
-          date
-          title
+          language
+          level
         }
       }
     }

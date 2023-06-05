@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 
 const useScrollPosition = () => {
+  if (typeof window === "undefined") {
+    return 0;
+  }
   const [scroll, setScroll] = useState(window.pageYOffset);
 
   useEffect(() => {

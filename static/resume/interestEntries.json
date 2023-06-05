@@ -1,14 +1,17 @@
 [
   {
-    "interestName": "Distributed Systems"
+    "interestName": "Kotlin Multiplatform"
   },
   {
-    "interestName": "Data Infrastructure"
+    "interestName": "Application Performance"
+  },
+  {
+    "interestName": "Embedded Programming"
   },
   {
     "interestName": "Concurrent Computing"
   },
   {
-    "interestName": "Database Internals"
+    "interestName": "Distributed Systems"
   }
 ]

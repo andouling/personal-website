@@ -7,9 +7,9 @@ const HomePage = () => (
     <meta
       name="description"
       content={`
-        Hi! I'm an Senior Android software engineer and technical manager @ Drom.
+        Hi! I'm a Senior Android software engineer and technical manager @ Drom.
         I'm interested in Android, iOS, JVM backend development as well as
-        solving challanging application performance problems.
+        solving challenging application performance problems.
       `}
     />
   </Helmet>

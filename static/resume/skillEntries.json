@@ -2,21 +2,18 @@
   {
     "title": "Languages",
     "elements": [
-      "Rust",
-      "C++",
+      "Kotlin",
       "Java",
-      "Scala",
-      "Elixir",
-      "Python",
-      "JavaScript",
+      "C",
+      "Swift",
+      "SQL",
       "HTML",
       "CSS",
-      "SQL",
       "Bash"
     ]
   },
   {
     "title": "Technologies",
-    "elements": ["React", "Node", "Phoenix", "Git", "Linux", "AWS"]
+    "elements": ["Android", "iOS", "KMM", "Spring", "Gradle", "Git", "Linux"]
   }
 ]

@@ -210,15 +210,9 @@ const getEducationSectionComponent = (entry, key) => (
 const LinksSection = () => (
   <div>
     <div>
-      <StyledLink to="mailto:fantasy.reactor@gmail.com">
+      <StyledLink to="mailto:marumaru.andrey@gmail.com">
         <LinkIcon icon="envelope" />
-        fantasy.reactor@gmail.com
-      </StyledLink>
-    </div>
-    <div>
-      <StyledLink to="https://www.github.com/andouling">
-        <LinkIcon icon={["fab", "github"]} />
-        github.com/andouling
+        marumaru.andrey@gmail.com
       </StyledLink>
     </div>
     <div>
@@ -228,13 +222,14 @@ const LinksSection = () => (
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="https://devpost.com/andouling">
-        <LinkIcon icon="link" />
-        devpost.com/andouling
+      <StyledLink to="https://www.github.com/andouling">
+        <LinkIcon icon={["fab", "github"]} />
+        github.com/andouling
       </StyledLink>
     </div>
     <div>
-      <StyledLink to="link_to_PDF">
+      
+      <StyledLink to="chernov-cv-short.pdf" notGatsby>
         <LinkIcon icon="file-pdf" />
         PDF Version of Resume
       </StyledLink>
@@ -315,11 +310,6 @@ class ResumePage extends React.Component {
     const projectSections = [];
     const skillSections = [];
     const educationSections = [];
-    const certifications = getPoints(
-      this.props.data.allCertificationEntriesJson.edges.map(
-        (entry) => entry.node.certificationName,
-      ),
-    );
     const interests = getPoints(
       this.props.data.allInterestEntriesJson.edges.map((entry) => entry.node.interestName),
     );
@@ -355,7 +345,7 @@ class ResumePage extends React.Component {
         }}
       >
         <Helmet>
-          <title>Resume - Chernov Andrey</title>
+          <title>Resume - Andrey Chernov</title>
         </Helmet>
         <ResumeLeftColumn>
           <SectionHeader>Experience</SectionHeader>
@@ -446,14 +436,6 @@ export const pageQuery = graphql`
         node {
           language
           level
-        }
-      }
-    }
-
-    allCertificationEntriesJson {
-      edges {
-        node {
-          certificationName
         }
       }
     }

@@ -200,7 +200,7 @@ class PostTemplate extends React.Component {
         }}
       >
         <Helmet>
-          <title>{`${currPost.frontmatter.title} | Chernov Andrey`}</title>
+          <title>{`${currPost.frontmatter.title} | Andrey Chernov`}</title>
         </Helmet>
         <PostTitle>{currPost.frontmatter.title}</PostTitle>
         <PostSubtitle>{formattedDate}</PostSubtitle>

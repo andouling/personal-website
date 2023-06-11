@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 const HomePage = () => (
   <Helmet>
-    <title>Chernov Andrey</title>
+    <title>Andrey Chernov</title>
     <meta
       name="description"
       content={`

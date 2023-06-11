@@ -92,7 +92,7 @@ class BlogPage extends React.Component {
         }}
       >
         <Helmet>
-          <title>Blog - Chernov Andrey</title>
+          <title>Blog - Andrey Chernov</title>
         </Helmet>
         {pageContext.pathPrefix.match(/^\/blog\/tags\//) && (
           <TagListTitle>{`Posts tagged with “${getTagName(pageContext.pathPrefix)}”`}</TagListTitle>

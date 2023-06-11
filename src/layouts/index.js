@@ -42,21 +42,21 @@ const LayoutWrapper = styled.div`
   max-width: 1000px;
 `;
 
+//todo <LangChangeToggle/>
 const Layout = (props) => (
   <LayoutWrapper>
     <Helmet>
-      <title>Chernov Andrey</title>
+      <title>Andrey Chernov</title>
       <meta
         name="description"
         content={`
-          Chernov Andrey. I&#39;m an Senior Android software engineer and technical manager @ Drom.
+          Andrey Chernov. I&#39;m an Senior Android software engineer and technical manager @ Drom.
           I'm interested in Android, iOS, JVM backend development as well as
           solving challanging application performance problems.
         `}
       />
     </Helmet>
     <Header activePage={props.location.pathname} />
-    <LangChangeToggle/>
     {props.children}
     <Footer activePage={props.location.pathname} />
   </LayoutWrapper>

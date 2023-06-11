@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import Link from "./link";
 import colors from "../utils/colors";
+import StyledLink from "./styledLink";
 
 const Navbar = styled.div`
   padding-bottom: 25px;
@@ -122,9 +123,9 @@ const Header = (props) => {
   return (
     <HeaderParent isHomepage={isHomepage}>
       <HeaderWrapper isHomepage={isHomepage}>
-        <HeaderTitle isHomepage={isHomepage}>Chernov Andrey</HeaderTitle>
+        <HeaderTitle isHomepage={isHomepage}>Andrey Chernov</HeaderTitle>
         <HeaderBio isHomepage={isHomepage}>
-          Hi! I&#39;m a Senior Android Software Engineer and an Engineering Manager @ <a href="https://drom.ru/">Drom.ru</a>. <br/>
+          Hi! I&#39;m a Senior Android Software Engineer and an Engineering Manager @ <StyledLink to="https://drom.ru/">Drom.ru</StyledLink>. <br/>
           I&#39;m interested in Android, iOS, JVM backend and Embedded development
           as well as solving tricky performance problems.
         </HeaderBio>

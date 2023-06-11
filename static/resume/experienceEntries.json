@@ -3,7 +3,7 @@
     "entity": "Drom.ru",
     "subEntity": "Software Engineering Manager",
     "location": "Istanbul, Republic of Turkey",
-    "time": "Sept 2021 - Present",
+    "time": "July 2021 - Present",
     "description": [
       "Managing, mentoring and driving several Android teams in 3 different projects with a great delegation experience and many successful features.",
       "Conducting one-to-one's, technical interviews, new employees’ onboard-ing, team and personal performance review.",
@@ -16,7 +16,7 @@
     "entity": null,
     "subEntity": "Android Software Engineer",
     "location": "Vladivostok, Russian Federation",
-    "time": "Jan 2019 - Sept 2021",
+    "time": "Jan 2019 - July 2021",
     "description": [
       "Collaborated on the implementation and further refactoring of a new app and supporting existing applications with a million DAU.",
       "Implemented a chatbot solution using a finite state machine with a graph as a data structure.",
@@ -30,18 +30,18 @@
     "location": "Novosibirsk, Russian Federation",
     "time": "July 2017 - Dec 2018",
     "description": [
-      "Refactored JBoss backend service to a completely new one, rewriting ~90% of existing SQL queries.",
-      "Achieved service requests speed increase by ~35%."
+      "Refactored JBoss backend service to Spring Boot, rewriting 90% of existing SQL queries.",
+      "Achieved the target of increasing the speed of these queries by 35%."
     ]
   },
   {
     "entity": null,
     "subEntity": "Android Software Engineer",
     "location": "Novosibirsk, Russian Federation",
-    "time": "Oct 2016 - Dec 2018",
+    "time": "Oct 2016 - July 2017",
     "description": [
-      "Developed from the scratch an Android client for browsing user’s orders.",
-      "Significantly increased speed of an app for company warehouses, by redeveloping an existing app, which led to warehouses' overall work speed increase and as the result to cost safe by ~1%."
+      "Developed an Android client for browsing user’s orders.",
+      "Redeveloped an existing app which increased app speed and saved costs for the company’s warehouses."
     ]
   }
 ]
